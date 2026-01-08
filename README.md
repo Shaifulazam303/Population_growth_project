@@ -1,9 +1,9 @@
-📈 Population Growth Simulation with Shocks & Resources
+### 📈 Population Growth Simulation with Shocks & Resources
 
 This project is an interactive population growth simulation built using Python and Streamlit.
 It compares Euler and Runge–Kutta (RK4) numerical methods, fits a logistic growth model, and studies the effect of external shocks (pandemic, war, environment) and resources (food, water, medicine) on population dynamics.
 
-🚀 Features
+### 🚀 Features
 
 📊 Numerical Simulation
 
@@ -21,7 +21,7 @@ Error between RK4 and logistic regression fit
 
 Estimates growth rate, carrying capacity, and initial condition
 
-⚠️ Shock Modeling
+### ⚠️ Shock Modeling
 
 Pandemic
 
@@ -29,7 +29,7 @@ War
 
 Environmental shock
 
-🍞 Resource Effects
+### 🍞 Resource Effects
 
 Food → increases carrying capacity
 
@@ -41,7 +41,7 @@ Medicine → reduces shock impact
 
 Download simulation results as CSV
 
-🖥️ Interactive UI
+### 🖥️ Interactive UI
 
 Built using Streamlit sliders and inputs
 
@@ -82,7 +82,7 @@ r = growth rate
 𝐾
 K = carrying capacity
 
-🔢 Numerical Methods Used
+### 🔢 Numerical Methods Used
 Euler Method
 
 Simple and fast
@@ -125,12 +125,12 @@ Where:
 
 Medicine reduces shock severity
 
-🍽️ Resource Effects
-Resource	Effect
+### 🍽️ Resource Effects
+
 Food	Increases carrying capacity
 Water	Increases growth rate
 Medicine	Reduces shock damage
-🖥️ User Interface (Streamlit)
+### 🖥️ User Interface (Streamlit)
 
 Users can control:
 
@@ -148,7 +148,7 @@ Resource levels (0–1)
 
 All plots and results update in real time.
 
-📊 Visualizations Included
+### 📊 Visualizations Included
 
 Euler vs RK4 population growth
 
@@ -158,14 +158,14 @@ Logistic regression fit to RK4
 
 RK4 vs Logistic fit error
 
-Population under shock and resources
+### Population under shock and resources
 
 📦 Project Structure
 ├── app.py              # Main Streamlit application
 ├── README.md           # Project documentation
 ├── population_data.csv # Downloaded simulation output
 
-🛠️ Installation & Run
+### 🛠️ Installation & Run
 1️⃣ Install dependencies
 pip install streamlit numpy pandas matplotlib scipy
 
@@ -174,19 +174,9 @@ streamlit run app.py
 
 📚 Technologies Used
 
-Python 🐍
+Python 🐍 , Streamlit , NumPy , Pandas, Matplotlib, SciPy
 
-Streamlit
-
-NumPy
-
-Pandas
-
-Matplotlib
-
-SciPy
-
-🎓 Academic Relevance
+### 🎓 Academic Relevance
 
 This project demonstrates:
 
