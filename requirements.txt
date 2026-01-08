@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+matplotlib
+scipy
+ipywidgets
+
+# FOR RUN  streamlit run streamlit_app.py
